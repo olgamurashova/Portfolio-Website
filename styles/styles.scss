@@ -60,27 +60,26 @@ section{
 .sec1{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(238, 107, 128);
 }
+
 .sec2{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(157, 144, 242);
+    
 }
 .sec3{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(90, 153, 205);
 }
+
 .sec4{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(241, 128, 219);
 }
 .sec5{
     display: none;
     transform: translateY(0) scale(1);
-    background-color: rgb(233, 237, 127);
+    
 }
 
 .active{
@@ -138,3 +137,18 @@ section{
     }
 
 }
+
+/*Header-content*/
+.header-content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+
+
+
+
+
+
+/*Independent components*/
