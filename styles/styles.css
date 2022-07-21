@@ -251,8 +251,8 @@ section {
 .main-title h2 {
   position: relative;
   text-transform: uppercase;
-  font-size: 4rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 600;
 }
 .main-title h2 span {
   color: var(--color-secondary);
@@ -265,6 +265,6 @@ section {
   transition: all 0.4s ease-out;
   z-index: -1;
   transform: translate(-50%, -50%);
-  font-weight: 800;
-  font-size: 6.3rem;
+  font-weight: 700;
+  font-size: 5.3rem;
 }/*# sourceMappingURL=styles.css.map */
