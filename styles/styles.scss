@@ -289,6 +289,14 @@ section{
                     background-color: var(--color-grey-4); 
                     margin-left: 1rem;
                     position: relative;
+                    span{
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        background-color: var(--color-secondary);
+                        width: 60%;
+                    }
 
                }
             }
