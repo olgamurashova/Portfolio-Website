@@ -358,6 +358,15 @@ section {
 .timeline .timeline-item .timeline-icon i {
   font-size: 1.3rem;
 }
+.timeline .timeline-item .timeline-duration {
+  padding: 0.2rem 0.6rem;
+  background-color: var(--color-grey-5);
+  border-radius: 15px;
+  display: inline-block;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
 
 /*Independent components*/
 .btn-con {
