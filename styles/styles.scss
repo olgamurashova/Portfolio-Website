@@ -313,23 +313,22 @@ section{
                }
             }
         }
-    }
-    .stat-title{
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        text-align: center;
-        padding: 3.5rem o;
-        position: relative;
-        &::before{
-            content: '';
-            left: 50%;
-            top: 0;
-            width: 40%;
-            height: 1px;
-            background-color: var(--color-grey-5);
-            transform: translateX(-50%);
-        }
-
+    }  
+}
+.stat-title{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 3.5rem o;
+    position: relative;
+    &::before{
+        content: '';
+        left: 50%;
+        top: 0;
+        width: 40%;
+        height: 1px;
+        background-color: var(--color-grey-5);
+        transform: translateX(-50%);
     }
 }
 
@@ -359,23 +358,7 @@ section{
             }
         }
     }
-    .stat-title{
-        text-transform: uppercase;
-        font-size: 1.4rem;
-        text-align: center;
-        padding: 3.5rem o;
-        position: relative;
-        &::before{
-            content: '';
-            left: 50%;
-            top: 0;
-            width: 40%;
-            height: 1px;
-            background-color: var(--color-grey-5);
-            transform: translateX(-50%);
-        }
-
-    }
+    
 }
 
 
