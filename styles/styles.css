@@ -301,6 +301,18 @@ section {
   background-color: var(--color-secondary);
   width: 60%;
 }
+.about-stats .progress-bars .progress-bar .progress-container .progress .html {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .css {
+  width: 50%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .js {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress .react {
+  width: 10%;
+}
 
 /*Independent components*/
 .btn-con {
