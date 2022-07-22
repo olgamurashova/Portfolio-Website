@@ -264,6 +264,30 @@ section{
     }
 }
 
+.about-stats{
+    padding: 4rem;
+    .progress-bars{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        .progress-bar{
+            display: flex;
+            flex-direction: column;
+            .progress-title{
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+            .progress-container{
+                display: flex;
+                align-items: center;
+                .progress-text{
+                    color: var(--color-grey-2);
+
+                }
+            }
+        }
+    }
+}
 
 
 

@@ -263,6 +263,30 @@ section {
   text-transform: uppercase;
 }
 
+.about-stats {
+  padding: 4rem;
+}
+.about-stats .progress-bars {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.about-stats .progress-bars .progress-bar {
+  display: flex;
+  flex-direction: column;
+}
+.about-stats .progress-bars .progress-bar .progress-title {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.about-stats .progress-bars .progress-bar .progress-container {
+  display: flex;
+  align-items: center;
+}
+.about-stats .progress-bars .progress-bar .progress-container .progress-text {
+  color: var(--color-grey-2);
+}
+
 /*Independent components*/
 .btn-con {
   display: flex;
