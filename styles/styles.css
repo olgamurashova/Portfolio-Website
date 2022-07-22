@@ -250,6 +250,18 @@ section {
   height: 2px;
   background-color: var(--color-grey-5);
 }
+.about-container .left-about {
+  padding: 1rem;
+}
+.about-container .left-about p {
+  line-height: 1rem;
+  padding: 0.5rem;
+  color: var(--color-grey-1);
+}
+.about-container .left-about h4 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
 
 /*Independent components*/
 .btn-con {

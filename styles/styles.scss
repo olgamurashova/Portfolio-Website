@@ -249,6 +249,19 @@ section{
         }
 
     }
+    .left-about{
+        padding: 1rem;
+        p{
+            line-height: 1rem;
+            padding: 0.5rem;
+            color: var(--color-grey-1);
+        }
+        h4{
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+
+    }
 }
 
 
