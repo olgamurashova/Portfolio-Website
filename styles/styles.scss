@@ -319,7 +319,7 @@ section{
     text-transform: uppercase;
     font-size: 1.4rem;
     text-align: center;
-    padding: 3.5rem o;
+    padding: 3.5rem 0;
     position: relative;
     &::before{
         content: '';
@@ -365,6 +365,21 @@ section{
             font-size: .8rem;
             text-transform: uppercase;
             font-weight: 500;
+        }
+        h5{
+            padding: 1rem 0;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-weight: 600;
+            span{
+                font-size: 1rem;
+                font-weight: 500;
+                color: var(--color-grey-2);
+
+            }
+        }
+        p{
+            color: var(--color-grey-2);
         }
     }
     
