@@ -255,7 +255,7 @@ section {
 }
 .about-container .left-about p {
   line-height: 1rem;
-  padding: 0.5rem;
+  padding: 1rem;
   color: var(--color-grey-1);
 }
 .about-container .left-about h4 {
