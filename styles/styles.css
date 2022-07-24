@@ -537,6 +537,19 @@ section {
   align-items: center;
   justify-content: space-between;
 }
+.contact-content .left-contact .contact-info .contact-item p {
+  margin: 0.3rem 0 !important;
+  padding: 0 !important;
+}
+.contact-content .left-contact .contact-info .contact-item .icon {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+}
+.contact-content .left-contact .contact-info .contact-item .icon i {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
 .contact-content .right-contact {
   flex: 3;
   margin-left: 3rem;
