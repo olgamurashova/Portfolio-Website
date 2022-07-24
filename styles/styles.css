@@ -515,6 +515,15 @@ section {
   padding-bottom: 1rem;
 }
 
+/*Contact section*/
+.contact-content {
+  display: flex;
+  padding-top: 3.5rem;
+}
+.contact-content .left-contact {
+  flex: 2;
+}
+
 /*Independent components*/
 .btn-con {
   display: flex;

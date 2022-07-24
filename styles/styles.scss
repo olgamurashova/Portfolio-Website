@@ -514,12 +514,22 @@ section{
             color: var(--color-grey-2);
             line-height: 2rem;
             padding-bottom: 1rem;
-            
+
         }
     }
     }
 }
 
+/*Contact section*/
+
+.contact-content{
+    display: flex;
+    padding-top: 3.5rem;
+    .left-contact{
+        flex: 2;
+        
+    }
+}
 
 /*Independent components*/
 
