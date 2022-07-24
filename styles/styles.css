@@ -141,6 +141,20 @@ section {
   pointer-events: none;
 }
 
+.theme-button {
+  top: 5%;
+  right: 3%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: var(--color-grey-4);
+  cursor: pointer;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*Header-content*/
 .header-content {
   display: grid;
@@ -561,8 +575,8 @@ section {
   background-color: var(--color-grey-5);
   cursor: pointer;
   justify-content: center;
-  width: 50%;
-  height: 50%;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   margin: 0 0.4rem;
   transition: all 0.4s ease-out;
