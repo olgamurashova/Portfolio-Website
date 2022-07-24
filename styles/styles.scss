@@ -548,6 +548,14 @@ section{
             }
 
         }
+        .input-control-2{   
+            display: flex;
+            :last-child{
+                margin-left: 1.5rem;
+                 
+            }
+
+        }
     }
 }
 
