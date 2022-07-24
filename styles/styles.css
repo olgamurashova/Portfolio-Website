@@ -523,6 +523,20 @@ section {
 .contact-content .left-contact {
   flex: 2;
 }
+.contact-content .left-contact h4 {
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.contact-content .left-contact p {
+  margin: 1rem 0;
+  line-height: 2rem;
+}
+.contact-content .left-contact .contact-info .contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .contact-content .right-contact {
   flex: 3;
   margin-left: 3rem;

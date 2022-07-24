@@ -527,6 +527,23 @@ section{
     padding-top: 3.5rem;
     .left-contact{
         flex: 2;
+        h4{
+            margin-top: 1rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+        }
+        p{
+            margin: 1rem 0;
+            line-height: 2rem;
+        }
+        .contact-info{
+            .contact-item{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+            }
+        }
+
     }
     .right-contact{
         flex: 3;
