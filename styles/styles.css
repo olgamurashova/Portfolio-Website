@@ -523,6 +523,26 @@ section {
 .contact-content .left-contact {
   flex: 2;
 }
+.contact-content .right-contact {
+  flex: 3;
+  margin-left: 3rem;
+}
+.contact-content .right-contact .input-control {
+  margin: 1.5rem 0;
+}
+.contact-content .right-contact .input-control input, .contact-content .right-contact .input-control textarea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: var(--color-grey-5);
+  width: 100%;
+  color: var(--color-white);
+  resize: none;
+}
 
 /*Independent components*/
 .btn-con {
