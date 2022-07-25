@@ -34,7 +34,12 @@ function PageTransitions(){
         }
     })
 }
-
+//Toggle theme
+const themeButton =document.querySelector('.theme-button');
+themeButton.addEventListener('click', () =>{
+    let element = document.body;
+    element.classList.toggle('light-mode')
+})
     
 }
 
