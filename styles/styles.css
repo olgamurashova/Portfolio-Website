@@ -647,6 +647,10 @@ section {
   display: flex;
   justify-content: flex-start;
 }
+.contact-content .right-contact .status {
+  display: flex;
+  text-align: center;
+}
 
 /*Independent components*/
 .btn-con {
