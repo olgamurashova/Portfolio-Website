@@ -6,8 +6,8 @@ In this project I built a portfolio website sample following a tutorial.
 
 ### Tools & Technologies 
 
-+ Html
++ Html5
 + JavaScript
-+ CSS
++ CSS3
 
 
